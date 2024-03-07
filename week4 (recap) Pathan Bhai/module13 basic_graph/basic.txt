@@ -1,0 +1,19 @@
+                        Tree   vs   Graph
+
+1) Tree Movement parent to child but Graph anything.
+2) Graph Multi Edges Possible Tree not.
+3) Tree has no Cycle but Graph has.
+4) Graph is Bigger than tree
+
+Undirected Graph - sobgulo edge undirected hote hobe.
+Dircted Graph - jekno ekta edges directed holei seta Dircted hobe.
+
+Weighted Graph - Cost.
+
+Representation:
+1) Adjacency Matrix tokhn ei use korbo jokhn 2 ta node er moddhe edge/connection ache kina jante chawa hobe.
+kar sathe ke ke connected eta janar jonne matrix use korle n2 hobe time. so eta bhalo upay nah.
+
+2) Adjacency List Jokhn ekta node kar kar sathe connected eita jante chai tokhn best kaj kore.
+
+3) Edge List. jokhn edge dorkar tokhn use hobe/ karon ekhane pair baniye sob gula edge rekhe dei.

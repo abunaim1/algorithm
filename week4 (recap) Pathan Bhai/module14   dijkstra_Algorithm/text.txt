@@ -1,0 +1,15 @@
+Dijkstra Algorithm - Single Source Shortest Path.
+-------------------------------------------------
+Weighted Graph e bfs kaj kore na, mainly bfs shortest distance dite parbe na jodi graph ta Weighted hoi.
+ei situation samlanor jonne better version ache jetake amra "Dijkstra Algorithm" boli. abr Dijkstra Algorithm sudhu matro "positive Weighted" graph er khetrei kaj kore.
+
+Path Relexation
+---------------
+eita hocche prothom ekta path a jawa,, next time onno patha diye jabo jodi sei path ta prothom path er theke kom cost er hoi. 
+for example mirpur to nilkhet jabo prothom path e amr somoy lagche 20 min pore ekta friend er suggestions niye onno path diye gelam jekhane somoy lagche 10 min. so, ei khetre ami 10 min cost wala path takei nibo, and etai path Relexation.
+
+Dijkstra Algorithm Approach: (Naive Solution) O(N*E)
+----------------------------------
+(1) Source theke bfs chalabo
+(2) Path Relax kora gele queue te push korbo
+

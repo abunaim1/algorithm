@@ -1,0 +1,125 @@
+Graph = Non Linear Data Structure (vertex, edges). Collection of nodes and edges, connected between them.
+
+Terminologies:
+--------------
+2 kind of Graph according to Direction:
+---------------------------------------
+1) Directed
+2) Undirected
+
+2 kind of Graph according to Weight:
+------------------------------------
+1) Unweight
+2) Weighted
+
+Special Graph(TREE)
+* Only one connected components
+* No cycle (# edges = # vertex/node -1) 
+* Only one single path to traverse one node to another.
+
+[some inportant Terminologies of TREE]
+-->parent 
+-->child
+-->sibilings
+-->leaf node
+-->root node
+-->ancestor
+-->common ancestor
+-->lowest common ancestor (LCA)
+-->Depth (root ke 0 dhore niche jabo)
+-->Height (leaf ke 0 dhore upore jabo, and maximum ta nibo)
+
+Representation:
+---------------
+How input are given for a Graph:-
+
+7 (n)<- #Nodes are given first line
+12 (m) <- #edges are given second line 
+
+rest of the line are connection/edges + Weight(if given)
+u v w
+- - -
+1 7 50
+2 4 100
+4 7 150
+. .  .
+. .  .
+
+Types of Representation (How we represent a graph to computer): 
+
+1) With Adjacency Matrix 
+2) With Adjacency List
+3) With List of edges
+
+1) Adjacency Matrix Details: 
+
+*The input: (first line is #node, second line is #edges, rest of the line connection/edges) - Directed
+4
+5
+1 3
+2 3
+3 4
+1 2
+4 2
+*The Representation: With (A. Matrix)
+
+4 nodes/vertices so, #col and #row will be 4.
+   1 2 3 4
+   - - - -
+1| 0 1 1 0 
+2| 0 0 1 0 
+3| 0 0 0 1 
+4| 0 1 0 0 
+
+If we draw the graph from this 2D array Matrix Representation we got our desire graph below.
+(1)-----*(2)
+ \       /\
+  \     /  \
+   \   /    \       (* = Direction)
+    * *      *
+    (3)----*(4)
+
+finally one thing that, jodi Weight dewa thake then setai Matrix e boshe jabe 1 na boshe.
+
+2) Adjacency List Details:
+
+Eta basically Space efficient hoi Matrix er theke.
+
+*The input: (first line #node, second line #edges, rest of the line connection/edges)
+4
+5
+1 3
+2 3
+3 4
+1 2
+4 2
+
+*The Representation: With (A. List) - Directed.
+1: 3, 2
+2: 3
+3: 4
+4: 2
+
+If Undirected ?
+ans for same input: 
+
+1: 3, 2
+2: 3, 1, 4
+3: 1, 2, 4
+4: 3, 2
+
+Comparison between these two Representation:
+
+            Matrix:      List:
+Space:        n^2           m 
+graphType:   Dense        sparse
+TreeGraph: never use    always use
+
+Traversal:
+----------
+DFS - Depth First Search
+
+
+
+Graph Algorithms:
+-----------------

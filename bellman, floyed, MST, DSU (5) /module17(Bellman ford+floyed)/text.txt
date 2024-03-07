@@ -1,0 +1,29 @@
+Bellman ford
+------------
+1) Negative cycle detect
+2) ans ber korte parbe
+
+Floyed Warshell
+----------------
+1) Negative Weight 
+2) Negative cycle
+3) Multi Source
+
+Algorithms
+----------
+BFS: shortest path + No Weight + Multi Source/Single Source
+Single Source: O(V+E)
+Multi Source:  V(V+E) = V(V+V2) = V2 + V3 = O(V3)
+
+Dijkstra: shortest path + Weight + But No Negative Weight + Multi Source/Single Source
+Single Source: V+ElogV
+Multi Source:  V(V + ElogV) = V2 + V ElogV = V2 + V*V2logV = V2 + V3logV = O(V3logV)
+
+Bellman ford: shortest path + Directed graph + Weight + Negative Weight + **Single Source
+Single Source: V*E
+Multi Source:  V(V*E) = V2*E = V2 * V2 = O(V4) 
+
+Floyed Warshell: shortest path + Directed graph + Weight + Negative Weight + **Multi Source
+Multi Source: O(V3)
+
+

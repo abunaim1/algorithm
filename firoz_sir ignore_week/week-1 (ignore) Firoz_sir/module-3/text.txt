@@ -1,0 +1,3 @@
+Divide and conquer is not an Algorithm it is an idea or technique. 
+We can genarate Algorithm using this technique.
+

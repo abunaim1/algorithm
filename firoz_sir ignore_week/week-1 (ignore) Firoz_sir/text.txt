@@ -1,0 +1,17 @@
+1. Algorithm Defination : input -> (set of instructions) -> output
+2. Efficient Algorithm: Correct, Fast, Small Space, Genaral, Simple, Clever
+3. Asymptotic Notation Used for simplifying the complexity of Algorithm.
+
+
+.
+.
+O(1) = constant;
+O(logN) = logarithmic ;
+O(rootN) = Square Root;
+O(N) = linear;
+O(NlogN)
+O(N^2) = Quadric;
+O(N^3) = Cubic;
+O(2^n) = Exponential;
+.
+.
